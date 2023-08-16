@@ -1,5 +1,3 @@
-package src;
-
 public class MatrixOutput {
 
     private static int[][] matrixA = {{1, 0, 0}, {0, 0, 0}, {0, 0, 0}};
@@ -120,6 +118,7 @@ public class MatrixOutput {
             printMatrix(hadamardMatrix);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Es kam zu einem Index-Fehler");
+            e.printStackTrace();
         }
     }
 
