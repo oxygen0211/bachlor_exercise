@@ -1,27 +1,48 @@
 Welchem Geschlecht fühlst du dich zugehörig?
 
+männlich
+
 Wie lang hast du für das Lösen der Aufgaben gebraucht (in Minuten:Sekunden)?
+
+96:17
+
+Davon ca. 30 - 35 Minuten fixen der Projektstruktur, anlegen von Build- und Dependency-System, Source- und Test-Ordner
+nach Best-Practices, glattziehen von JDK und aufsetzen von Testinfrastruktur (falls das nicht Teil der Aufgabe war ;-))
 
 Welcher Gruppe warst du zugeteilt?
 [] mit Unterstützung von ChatGPT
-[] ohne Unterstützung von ChatGPT
+[x] ohne Unterstützung von ChatGPT
 
 Wie würdest du deine allgemeine Programmiererfahrung einschätzen?
 [] sehr gering
 [] gering
 [] mittel
 [] groß
-[] sehr groß
+[x] sehr groß
 
 Wie würdest du deine Programmiererfahrung mit Java einschätzen?
 [] sehr gering
 [] gering
 [] mittel
 [] groß
-[] sehr groß
+[x] sehr groß
 
 Welche IDE nutzt du?
+Intellij + Konsole (zsh) + Maven
 
 Wofür hast du ChatGPT bereits genutzt? (auch wenn du es in deinem Versuch nicht nutzen durftest)
+- Abrufen von Allgemeinwissen/Trivia
+- Smart Home Voice assistent
+- Debugging von Problemen mit Elektronik und öffentlichen Bibliotheken (Python, Pandas, Data Science)
+- Ausformulieren von Basis-Struktur für Feature-Beschreibungen, Argumentation für verschiedene Aspekte
+  (e.g. "Was bedeutet Cloud Native?")
+ - Allgemein "Spielereien"
 
 Hast du Anmerkungen zum Versuch?
+- Das Fehlen ein par gewohnter Tools (ich musste zuerst die JDK in den Projekt settings einstellen, fehlen von Maven
+oder Gradle und JUnit) haben die Arbeitsweise zunächst eingeschränkt. Daher die entscheidung, die Zeit zu investieren,
+um zuerst eine "saubere" Arbeitsumgebung zu haben.
+
+- Beim fixen der Rotate-Funktion ist sicher am meisten Zeit verloren gegangen, grade im Vergleich mit ChatGPT. Bei
+derartigen Tasks ist viel Eindenken in den Algorithmus, nachlesen auf anderen Wissensplattformen (z.B. Stackoverflow,
+Wiki-Seiten des entsprechenden Algorithmus, etc.) und ausprobieren nötig.
